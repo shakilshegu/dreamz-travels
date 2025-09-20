@@ -136,17 +136,6 @@ const Hero = () => {
               <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
                 
                 {/* Badge */}
-                <div className="flex justify-start mb-6 lg:mb-8">
-                  <div className="flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 sm:px-6 py-2 sm:py-3">
-                    <div 
-                      className="w-2 h-2 sm:w-3 sm:h-3 rounded-full animate-pulse"
-                      style={{ backgroundColor: heroSlides[currentSlide].accent }}
-                    />
-                    <span className="text-white font-medium text-xs sm:text-sm tracking-wide">
-                      AWARD WINNING AGENCY
-                    </span>
-                  </div>
-                </div>
 
                 {/* Main Title */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
