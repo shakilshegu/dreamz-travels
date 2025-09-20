@@ -39,7 +39,7 @@ const ContactsPage = () => {
         `Trip Type: ${formData.tripType || 'Not specified'}\n` +
         `Subject: ${formData.subject}\n\n` +
         `Message:\n${formData.message}\n\n` +
-        `---\nSent from EcoTravel Contact Form`
+        `---\nSent from DreamzzTravels Contact Form`
       );
       
       const mailtoLink = `mailto:dreamzztravelsckm@gmail.com?subject=${subject}&body=${body}`;
@@ -68,7 +68,7 @@ const ContactsPage = () => {
 
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent(
-      `Hi! I'm interested in eco-travel services. ${formData.name ? `My name is ${formData.name}.` : ''} ${formData.tripType ? `I'm looking for ${formData.tripType}.` : ''}${formData.message ? ` Additional details: ${formData.message}` : ''}`
+      `Hi! I'm interested in DreamzzTravels services. ${formData.name ? `My name is ${formData.name}.` : ''} ${formData.tripType ? `I'm looking for ${formData.tripType}.` : ''}${formData.message ? ` Additional details: ${formData.message}` : ''}`
     );
     const whatsappNumber = "916362040932"; 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
@@ -253,7 +253,7 @@ Submitted: ${new Date().toLocaleString()}
                       required
                       rows="6"
                       className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
-                      placeholder="Tell us about your dream eco-adventure..."
+                      placeholder="Tell us about your dream DreamzzTravels..."
                     />
                   </div>
 
