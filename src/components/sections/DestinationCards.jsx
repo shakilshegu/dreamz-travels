@@ -155,7 +155,7 @@ const DestinationCards = () => {
           {/* Action Buttons */}
           <div className="flex gap-3 cursor-pointer">
             <a
-              href="https://wa.me/918304046814?text=Hi%20Dream%20Adventures%20%F0%9F%91%8B%2C%20I%E2%80%99d%20like%20to%20book%20a%20trip%20and%20get%20the%20detailed%20itinerary%2C%20please%21"
+              href="https://wa.me/916362040932?text=Hi%20Dreamzz%20Travels%20%F0%9F%91%8B%2C%20I%E2%80%99d%20like%20to%20book%20a%20trip%20and%20get%20the%20detailed%20itinerary%2C%20please%21"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
@@ -227,7 +227,7 @@ const DestinationCards = () => {
 
             <div className="mt-6 pt-4 border-t">
               <a
-                href="https://wa.me/918304046814?text=Hi%20Dream%20Adventures%20%F0%9F%91%8B%2C%20I%E2%80%99d%20like%20to%20book%20a%20trip%20and%20get%20the%20detailed%20itinerary%2C%20please%21"
+                href="https://wa.me/916362040932?text=Hi%20Dreamzz%20Travels%20%F0%9F%91%8B%2C%20I%E2%80%99d%20like%20to%20book%20a%20trip%20and%20get%20the%20detailed%20itinerary%2C%20please%21"
                 target="_blank"
                 rel="noopener noreferrer"
               >
