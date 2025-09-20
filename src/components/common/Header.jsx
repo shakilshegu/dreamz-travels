@@ -100,7 +100,7 @@ const Header = () => {
                                     ${isScrolled ? 'text-accent-700 drop-shadow-sm' : 'text-white drop-shadow-md'}
                                 `}>
                                     <span className="hidden xs:inline">Dreamzz Travels</span>
-                                    <span className="xs:hidden">Dreamzz</span>
+                                    <span className="xs:hidden">Dreamzz Travels</span>
                                 </span>
                             </Link>
                         </div>
