@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -51,6 +53,13 @@ const Header = () => {
         { name: 'About', to: '#about', isAnchor: true },
         { name: 'Contact', to: '/contacts' }
     ];
+
+    const isActive = (item) => {
+        if (item.isAnchor) {
+            return false; // anchor links are handled differently
+        }
+        return location.pathname === item.to;
+    };
 
 
     const handleNavClick = (href) => {
@@ -101,25 +110,36 @@ const Header = () => {
 
 
                         {/* Desktop Navigation */}
-                        <div className="hidden md:flex items-center space-x-8">
-                            {navItems.map((item) => (
-                                <Link
-                                    key={item.name}
-                                    to={item.to}
-                                    className={`
-        font-medium transition-all duration-300 hover:scale-105 relative py-2 px-1
-        ${isScrolled
-                                            ? "text-neutral-700 hover:text-accent-600"
-                                            : "text-white hover:text-secondary-200"}
-        after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-gradient-to-r 
-        after:from-accent-500 after:to-secondary-500 after:left-0 after:bottom-0 
-        after:transition-all after:duration-300 hover:after:w-full
-      `}
-                                >
-                                    {item.name}
-                                </Link>
-                            ))}
-                        </div>
+                        <div className="flex flex-col md:flex-row md:space-x-8">
+  {navItems.map((item) => (
+    item.isAnchor ? (
+      <a
+        key={item.name}
+        href={item.to}
+        onClick={() => setIsMobileMenuOpen(false)}
+        className={`
+          font-medium py-2 px-1 transition-all duration-300 hover:scale-105
+          ${isScrolled ? 'text-neutral-700 hover:text-accent-600' : 'text-white hover:text-secondary-200'}
+        `}
+      >
+        {item.name}
+      </a>
+    ) : (
+      <Link
+        key={item.name}
+        to={item.to}
+        onClick={() => setIsMobileMenuOpen(false)}
+        className={`
+          font-medium py-2 px-1 transition-all duration-300 hover:scale-105
+          ${isActive(item) ? 'text-accent-600 font-bold' : isScrolled ? 'text-neutral-700 hover:text-accent-600' : 'text-white hover:text-secondary-200'}
+        `}
+      >
+        {item.name}
+      </Link>
+    )
+  ))}
+</div>
+
 
                         {/* Desktop CTA Button */}
                         <div className="hidden md:flex items-center">
