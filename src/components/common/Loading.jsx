@@ -11,7 +11,7 @@ export const LoadingScreen = () => {
 
         {/* Brand Name */}
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
-          DreamAdventures
+          Dreamzz Travels
         </h2>
         
         {/* Simple message */}

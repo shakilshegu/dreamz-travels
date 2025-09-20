@@ -75,17 +75,23 @@ const Header = () => {
                     <nav className="flex items-center justify-between py-4">
                         {/* Logo */}
                         <div className="flex items-center space-x-3">
-                            <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center overflow-hidden">
+                            <div className="flex items-center justify-center ">
                                 <img
-                                      src="/images/accommodations/logo.jpg"
-                                    alt="Logo"
-                                    className="w-full h-full object-cover"
+                                    src="/images/accommodations/logo3.png"
+                                    alt="Dreamzz Travels Logo"
+                                    className="w-18 h-18 "
+                                    onError={(e) => {
+                                        // Fallback if image doesn't load
+                                        e.target.style.display = 'none';
+                                        e.target.parentElement.innerHTML = '<div className="w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">DT</div>';
+                                    }}
                                 />
                             </div>
                             <span
                                 className={`
-      font-bold text-2xl transition-colors duration-300
-      ${isScrolled ? 'text-green-600' : 'text-white'}`}
+            font-bold text-2xl transition-colors duration-300
+            ${isScrolled ? 'text-green-600' : 'text-white'}
+        `}
                             >
                                 Dreamzz Travels
                             </span>

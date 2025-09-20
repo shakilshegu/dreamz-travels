@@ -65,7 +65,7 @@ const Features = () => {
       <Container>
         <div className="text-center mb-16">
           <h2 className="heading-2 text-neutral-800 mb-6">
-            Why Choose <span className="text-gradient">DreamAdventures?</span>
+            Why Choose <span className="text-gradient">Dreamzz Travels?</span>
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
             We're not just another travel agency. We're your trusted partner in creating extraordinary adventures that inspire, educate, and transform.
