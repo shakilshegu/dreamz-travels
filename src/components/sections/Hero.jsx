@@ -64,7 +64,7 @@ const Hero = () => {
           >
             {/* Main Background Image */}
             <div
-              className="absolute inset-0 bg-cover bg-center transform transition-transform duration-6000 ease-out"
+              className="absolute inset-0 bg-cover bg-center transform transition-transform duration-6000 ease-out "
               style={{
                 backgroundImage: `url(${slide.backgroundImage})`,
                 transform: `scale(1.1) translate(${(mousePosition.x - 50) * 0.02}px, ${(mousePosition.y - 50) * 0.02}px)`
@@ -127,7 +127,7 @@ const Hero = () => {
       </div>
 
       {/* Main Content Container */}
-      <div className="relative z-10 min-h-screen flex items-center">
+      <div className="relative z-10 min-h-screen flex items-center md:mt-0 mt-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center min-h-screen py-16 lg:py-0">
             
