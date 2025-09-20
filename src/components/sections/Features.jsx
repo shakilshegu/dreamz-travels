@@ -61,60 +61,80 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-neutral-50 to-primary-50/30">
+    <section className="py-20 bg-gradient-to-br from-neutral-50 via-white to-green-50/20 relative overflow-hidden">
+      {/* Subtle Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-20 -right-40 w-80 h-80 bg-gradient-to-r from-green-200/10 to-emerald-200/5 rounded-full blur-3xl" />
+        <div className="absolute -bottom-20 -left-40 w-60 h-60 bg-gradient-to-r from-teal-200/8 to-green-200/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-emerald-100/5 to-green-100/3 rounded-full blur-3xl" />
+      </div>
+
       <Container>
-        <div className="text-center mb-16">
-          <h2 className="heading-2 text-neutral-800 mb-6">
-            Why Choose <span className="text-gradient">Dreamzz Travels?</span>
+        <div className="text-center mb-16 relative">
+          <h2 className="heading-2 text-neutral-800 mb-6 drop-shadow-sm">
+            Why Choose <span className="text-gradient bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Dreamzz Travels?</span>
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed drop-shadow-sm">
             We're not just another travel agency. We're your trusted partner in creating extraordinary adventures that inspire, educate, and transform.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group card hover:shadow-2xl hover:shadow-primary-100/50 transition-all duration-500 transform hover:-translate-y-2"
+              className="group card bg-white/80 backdrop-blur-sm border border-gray-100/50 hover:shadow-2xl hover:shadow-green-100/30 transition-all duration-500 transform hover:-translate-y-2 hover:bg-white/95"
             >
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl group-hover:shadow-green-500/25 border border-green-400/20">
                   {feature.icon}
                 </div>
                 <div className="flex-1">
-                  <h3 className="heading-4 text-neutral-800 mb-3 group-hover:text-primary-600 transition-colors duration-300">
+                  <h3 className="heading-4 text-neutral-800 mb-3 group-hover:text-green-600 transition-colors duration-300 font-bold text-lg">
                     {feature.title}
                   </h3>
-                  <p className="text-neutral-600 leading-relaxed">
+                  <p className="text-neutral-600 leading-relaxed text-sm group-hover:text-neutral-700 transition-colors duration-300">
                     {feature.description}
                   </p>
                 </div>
               </div>
+
+              {/* Subtle hover accent */}
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-emerald-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
             </div>
           ))}
         </div>
 
-        {/* Stats Section */}
-        <div className="mt-20 bg-gradient-primary rounded-3xl p-8 lg:p-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">50K+</div>
-              <div className="text-primary-100 font-medium">Happy Travelers</div>
+        {/* Enhanced Stats Section */}
+        <div className="mt-20 bg-gradient-to-r from-green-600 via-emerald-600 to-green-700 rounded-3xl p-8 lg:p-12 relative overflow-hidden shadow-2xl">
+          {/* Decorative background elements */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute -top-10 -right-20 w-40 h-40 bg-white/10 rounded-full blur-2xl" />
+            <div className="absolute -bottom-10 -left-20 w-32 h-32 bg-emerald-300/20 rounded-full blur-2xl" />
+            <div className="absolute top-1/2 left-1/3 w-24 h-24 bg-green-300/15 rounded-full blur-xl" />
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center relative">
+            <div className="text-white group">
+              <div className="text-4xl lg:text-5xl font-bold mb-2 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">50K+</div>
+              <div className="text-green-100 font-medium text-sm lg:text-base tracking-wide">Happy Travelers</div>
             </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">200+</div>
-              <div className="text-primary-100 font-medium">Destinations</div>
+            <div className="text-white group">
+              <div className="text-4xl lg:text-5xl font-bold mb-2 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">200+</div>
+              <div className="text-green-100 font-medium text-sm lg:text-base tracking-wide">Destinations</div>
             </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">15+</div>
-              <div className="text-primary-100 font-medium">Years Experience</div>
+            <div className="text-white group">
+              <div className="text-4xl lg:text-5xl font-bold mb-2 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">15+</div>
+              <div className="text-green-100 font-medium text-sm lg:text-base tracking-wide">Years Experience</div>
             </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">99%</div>
-              <div className="text-primary-100 font-medium">Satisfaction Rate</div>
+            <div className="text-white group">
+              <div className="text-4xl lg:text-5xl font-bold mb-2 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">99%</div>
+              <div className="text-green-100 font-medium text-sm lg:text-base tracking-wide">Satisfaction Rate</div>
             </div>
           </div>
+
+          {/* Decorative border */}
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-400/50 via-green-300/70 to-emerald-400/50" />
         </div>
       </Container>
     </section>
