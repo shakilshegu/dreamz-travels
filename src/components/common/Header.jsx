@@ -87,14 +87,16 @@ const Header = () => {
                                     }}
                                 />
                             </div>
-                            <span
-                                className={`
-            font-bold text-2xl transition-colors duration-300 tracking-tight text-shadow
-            ${isScrolled ? 'text-accent-700 drop-shadow-sm' : 'text-white drop-shadow-md'}
+                            <Link to="/">
+                                <span
+                                    className={`
+          font-bold text-2xl transition-colors duration-300 tracking-tight text-shadow cursor-pointer
+          ${isScrolled ? 'text-accent-700 drop-shadow-sm' : 'text-white drop-shadow-md'}
         `}
-                            >
-                                Dreamzz Travels
-                            </span>
+                                >
+                                    Dreamzz Travels
+                                </span>
+                            </Link>
                         </div>
 
 
@@ -177,7 +179,7 @@ const Header = () => {
                     {/* Mobile Menu Header */}
                     <div className="flex items-center justify-between p-6 border-b border-neutral-200/80 bg-gradient-to-r from-accent-50/60 to-secondary-50/40">
                         <div className="flex items-center space-x-2">
-                           
+
                             <span className="font-bold text-xl text-accent-700 tracking-tight">Dreamzz Travels</span>
                         </div>
                         <button
