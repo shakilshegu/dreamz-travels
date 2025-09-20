@@ -58,7 +58,7 @@ const Hero = () => {
         {heroSlides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-all duration-1000 ease-out ${
+            className={`absolute inset-0 transition-all duration-1000 ease-out  ${
               index === currentSlide ? 'opacity-100' : 'opacity-0'
             }`}
           >
