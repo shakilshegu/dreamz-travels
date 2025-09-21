@@ -920,7 +920,7 @@ export const tourPackages = [
   destination: "Dandeli & Gokarna",
   tagline: "3 Days of Adventure, Beaches & Nature",
   duration: "3 Days & 2 Nights",
-  tariff: "₹[Customizable] per head",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 4,
   stayName: "River Touch Resort (River View Cottages)",
@@ -1257,4 +1257,586 @@ export const tourPackages = [
     instagram: "@dreamzz_travels"
   }
 },
+{
+  id: 16,
+  packageName: "Manali Tour",
+  destination: "Manali",
+  tagline: "4 Days of Mountains, Valleys & Adventure",
+  duration: "4 Days / 3 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Treebo Premium Silverstone Resort (Customizable)",
+  pickupLocation: "Delhi (Volvo/AC Bus)",
+  rating: 4.7,
+  reviewCount: 38,
+  image: "https://images.unsplash.com/photo-1593183981460-e9276b5a5587?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFNoaW1sYXxlbnwwfHwwfHx8MA%3D%3D",
+  highlights: [
+    "Delhi to Manali Overnight Journey",
+    "Hadimba Devi Temple & Van Vihar",
+    "Solang Valley Adventure & Rohtang Excursion",
+    "Kullu Valley, Kasol & Manikaran Sahib",
+    "Mall Road & Tibetan Market Shopping"
+  ],
+  inclusions: [
+    "Delhi–Manali–Delhi Volvo/AC bus tickets",
+    "3 Nights hotel stay in Manali (as per chosen category)",
+    "Private car for sightseeing as per itinerary",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals & beverages not mentioned in inclusions",
+    "Entry fees, adventure activities & Rohtang permits/extra vehicle",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out charges"
+  ],
+  itinerary: [
+    {
+      day: 0,
+      title: "Delhi ➝ Manali (Overnight Journey)",
+      activities: [
+        "Evening pickup from Delhi boarding point by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey via scenic highways through Haryana & Himachal Pradesh",
+        "Night stay onboard bus"
+      ]
+    },
+    {
+      day: 1,
+      title: "Arrival in Manali & Local Sightseeing",
+      activities: [
+        "Morning arrival at Manali bus stand & transfer to hotel",
+        "Visit Hadimba Devi Temple surrounded by cedar forest",
+        "Stroll through Van Vihar & Riverfront",
+        "Evening leisure at Mall Road & Tibetan Market",
+        "Overnight stay in Manali"
+      ]
+    },
+    {
+      day: 2,
+      title: "Solang Valley Adventure / Rohtang Excursion",
+      activities: [
+        "Drive to Solang Valley – paragliding, ropeway & ATV rides",
+        "Excursion to Rohtang Pass (if open & with permit)",
+        "Optional stop at Vashisht Hot Springs / Jogini Waterfalls",
+        "Evening free at leisure",
+        "Overnight stay in Manali"
+      ]
+    },
+    {
+      day: 3,
+      title: "Kullu Valley & Manikaran",
+      activities: [
+        "Scenic drive to Kullu Valley – rafting & shawl factories",
+        "Visit Kasol (Mini Israel of India)",
+        "Explore Manikaran Sahib Gurudwara & Hot Springs",
+        "Local shopping & leisure time",
+        "Overnight stay in Manali"
+      ]
+    },
+    {
+      day: 4,
+      title: "Manali ➝ Delhi (Overnight Journey)",
+      activities: [
+        "Morning at leisure – café hopping or local exploration",
+        "Evening departure from Manali by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey to Delhi (arrival next morning)"
+      ]
+    }
+  ],
+  badge: "Himalayan Escape",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "Rohtang Pass access subject to weather & permits",
+    "Dreamzz Travels is not responsible for delays due to traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+},
+{
+  id: 17,
+  packageName: "Shimla Tour",
+  destination: "Shimla",
+  tagline: "3 Days of Hills, Colonial Charm & Kufri Adventures",
+  duration: "3 Days / 2 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Customized (Budget / Standard / Deluxe as per choice & availability)",
+  pickupLocation: "Delhi (Volvo/AC Bus)",
+  rating: 4.6,
+  reviewCount: 29,
+  image: "https://plus.unsplash.com/premium_photo-1697729628826-ca05ca7f5e8e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  highlights: [
+    "Delhi to Shimla Overnight Journey",
+    "Christ Church & The Ridge",
+    "Mall Road & Lakkar Bazaar Shopping",
+    "Kufri Excursion with Adventure Activities",
+    "Jakhoo Temple Visit"
+  ],
+  inclusions: [
+    "Delhi–Shimla–Delhi Volvo/AC bus tickets",
+    "2 Nights accommodation in Shimla (as per chosen category)",
+    "Private car for Kufri & local sightseeing",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals not mentioned in inclusions",
+    "Entry fees, adventure activities, horse rides, etc.",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out"
+  ],
+  itinerary: [
+    {
+      day: 0,
+      title: "Delhi ➝ Shimla (Overnight Journey)",
+      activities: [
+        "Evening pickup from Delhi by Volvo/AC bus",
+        "Overnight journey through Haryana & Himachal roads",
+        "Night stay onboard bus"
+      ]
+    },
+    {
+      day: 1,
+      title: "Shimla Arrival & Local Sightseeing",
+      activities: [
+        "Morning arrival at Shimla, transfer to hotel & check-in",
+        "Visit Christ Church & The Ridge",
+        "Explore Mall Road & Lakkar Bazaar",
+        "Leisure walk through pine forests & colonial streets",
+        "Overnight stay in Shimla"
+      ]
+    },
+    {
+      day: 2,
+      title: "Kufri Excursion",
+      activities: [
+        "Full-day excursion to Kufri",
+        "Horse riding to Mahasu Peak (optional)",
+        "Visit Himalayan Nature Park (Zoo)",
+        "Adventure activities at Kufri Fun World",
+        "Return to Shimla in evening, free time for shopping & cafés",
+        "Overnight stay in Shimla"
+      ]
+    },
+    {
+      day: 3,
+      title: "Local Exploration & Departure",
+      activities: [
+        "Morning visit to Jakhoo Temple (Lord Hanuman’s temple)",
+        "Free time for last-minute shopping at Mall Road",
+        "Evening departure from Shimla by Volvo/AC bus",
+        "Overnight journey to Delhi (arrival next morning)"
+      ]
+    }
+  ],
+  badge: "Hill Retreat",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "Kufri activities subject to weather conditions",
+    "Dreamzz Travels is not responsible for delays caused by traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+},
+{
+  id: 18,
+  packageName: "Dharamshala–McLeodganj Tour",
+  destination: "Dharamshala & McLeodganj",
+  tagline: "4 Days of Scenic Views, Monasteries & Adventure",
+  duration: "4 Days / 3 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Customized (Budget / Standard / Deluxe as per availability)",
+  pickupLocation: "Delhi (Volvo/AC Bus)",
+  rating: 4.7,
+  reviewCount: 34,
+  image: "https://media.istockphoto.com/id/2222578191/photo/namgyal-monastery-centre-for-tibetan-studies-and-arts-dharamshala-himachal-pradesh-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=wescfMmlnP3yyn6uW_JwowUC0UD7AdLvoVFgqrqxaUM=",
+  highlights: [
+    "Delhi to Dharamshala Overnight Journey",
+    "HPCA Cricket Stadium Visit",
+    "Norbulingka Institute – Tibetan Art & Culture",
+    "Dalai Lama Temple & Bhagsu Waterfall",
+    "Triund Trek / Dharamkot Village Exploration",
+    "Naddi View Point Sunset"
+  ],
+  inclusions: [
+    "Delhi–Dharamshala–Delhi Volvo/AC bus tickets",
+    "3 Nights hotel stay (Dharamshala/McLeodganj as per itinerary)",
+    "Private car for Dharamshala & McLeodganj sightseeing",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals not mentioned in inclusions",
+    "Entry fees, trekking charges & adventure activities",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out"
+  ],
+  itinerary: [
+    {
+      day: 0,
+      title: "Delhi ➝ Dharamshala (Overnight Journey)",
+      activities: [
+        "Evening pickup from Delhi boarding point by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey through Punjab & Himachal roads",
+        "Night stay onboard bus"
+      ]
+    },
+    {
+      day: 1,
+      title: "Arrival at Dharamshala & Local Exploration",
+      activities: [
+        "Morning arrival at Dharamshala, transfer to hotel & check-in",
+        "Visit HPCA Cricket Stadium – one of the most scenic stadiums in the world",
+        "Explore War Memorial & Tea Gardens",
+        "Visit Norbulingka Institute – Tibetan art & culture center",
+        "Overnight stay in Dharamshala"
+      ]
+    },
+    {
+      day: 2,
+      title: "McLeodganj Sightseeing",
+      activities: [
+        "Visit Dalai Lama Temple Complex & Namgyal Monastery",
+        "Explore Bhagsu Nag Temple & Waterfall",
+        "Visit St. John’s Church in Wilderness",
+        "Evening at Naddi View Point for sunset",
+        "Leisure at cafés & Tibetan market shopping",
+        "Overnight stay in McLeodganj"
+      ]
+    },
+    {
+      day: 3,
+      title: "Optional Trekking / Village Excursion",
+      activities: [
+        "Triund Trek (day trek option with packed lunch) – for adventure seekers",
+        "Explore Dharamkot Village for peaceful forest views",
+        "Evening free for shopping & local strolls",
+        "Overnight stay in McLeodganj"
+      ]
+    },
+    {
+      day: 4,
+      title: "Dharamshala ➝ Delhi (Overnight Journey)",
+      activities: [
+        "Morning at leisure – last-minute shopping or café visit",
+        "Evening departure from Dharamshala by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey to Delhi (arrival next morning)"
+      ]
+    }
+  ],
+  badge: "Himalayan Escape",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "Triund Trek subject to weather & fitness level",
+    "Dreamzz Travels is not responsible for delays caused by traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+},
+{
+  id: 19,
+  packageName: "Mussoorie Tour",
+  destination: "Mussoorie",
+  tagline: "3 Days of Hills, Waterfalls & Scenic Views",
+  duration: "3 Days / 2 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Customized (Budget / Standard / Deluxe as per availability)",
+  pickupLocation: "Delhi (Volvo/AC Bus)",
+  rating: 4.5,
+  reviewCount: 26,
+  image: "https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  highlights: [
+    "Delhi to Mussoorie Overnight Journey",
+    "Kempty Falls & Company Garden",
+    "Lal Tibba – Highest Point in Mussoorie",
+    "George Everest’s House & Mussoorie Lake",
+    "Christ Church & Mall Road"
+  ],
+  inclusions: [
+    "Delhi–Mussoorie–Delhi Volvo/AC bus tickets",
+    "2 Nights accommodation in Mussoorie (as per chosen category)",
+    "Private car for local sightseeing",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals not mentioned in inclusions",
+    "Entry fees, boating charges, horse rides, adventure activities",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out charges"
+  ],
+  itinerary: [
+    {
+      day: 0,
+      title: "Delhi ➝ Mussoorie (Overnight Journey)",
+      activities: [
+        "Evening pickup from Delhi boarding point by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey via Dehradun road towards Mussoorie",
+        "Night stay onboard bus"
+      ]
+    },
+    {
+      day: 1,
+      title: "Mussoorie Arrival & Local Sightseeing",
+      activities: [
+        "Morning arrival at Mussoorie, hotel check-in",
+        "Visit Kempty Falls – famous waterfall & picnic spot",
+        "Explore Company Garden (botanical & amusement park)",
+        "Evening stroll at Mall Road & Camel’s Back Road",
+        "Overnight stay in Mussoorie"
+      ]
+    },
+    {
+      day: 2,
+      title: "Scenic Points & Leisure",
+      activities: [
+        "Visit Lal Tibba Scenic Point – highest point in Mussoorie",
+        "Explore George Everest’s House – panoramic views",
+        "Enjoy boating at Mussoorie Lake",
+        "Visit Christ Church – one of the oldest churches in the Himalayas",
+        "Evening leisure for shopping & cafés at Mall Road",
+        "Overnight stay in Mussoorie"
+      ]
+    },
+    {
+      day: 3,
+      title: "Mussoorie ➝ Delhi",
+      activities: [
+        "Morning free for leisure / quick shopping",
+        "Afternoon departure from Mussoorie by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey to Delhi (arrival next morning)"
+      ]
+    }
+  ],
+  badge: "Hill Retreat",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "Some sightseeing points may close during rains/winters",
+    "Dreamzz Travels is not responsible for delays caused by traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+},
+{
+  id: 20,
+  packageName: "Mussoorie–Rishikesh Tour",
+  destination: "Mussoorie & Rishikesh",
+  tagline: "5 Days of Hills, Adventure & Spirituality",
+  duration: "5 Days / 4 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Customized (Budget / Standard / Deluxe as per availability)",
+  pickupLocation: "Delhi (Volvo/AC Bus)",
+  rating: 4.6,
+  reviewCount: 28,
+  image: "https://images.unsplash.com/photo-1583143874828-de3d288be51a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TXVzc29vcmllfGVufDB8fDB8fHww",
+  highlights: [
+    "Delhi to Mussoorie Overnight Journey",
+    "Kempty Falls & Company Garden",
+    "Lal Tibba & George Everest’s House",
+    "Mussoorie Lake Boating & Christ Church",
+    "Rishikesh – Triveni Ghat, Lakshman Jhula & Ram Jhula",
+    "Adventure Activities – River Rafting & Yoga Experiences"
+  ],
+  inclusions: [
+    "Delhi–Mussoorie / Rishikesh–Delhi Volvo/AC bus tickets",
+    "2 Nights stay in Mussoorie + 2 Nights stay in Rishikesh (as per chosen category)",
+    "Private car for sightseeing in Mussoorie & Rishikesh",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals not mentioned in inclusions",
+    "Adventure activities (rafting, bungee, zipline) – payable locally",
+    "Entry fees at sightseeing points",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out charges"
+  ],
+  itinerary: [
+    {
+      day: 0,
+      title: "Delhi ➝ Mussoorie (Overnight Journey)",
+      activities: [
+        "Evening pickup from Delhi boarding point by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey via Dehradun road towards Mussoorie",
+        "Night stay onboard bus"
+      ]
+    },
+    {
+      day: 1,
+      title: "Mussoorie Arrival & Local Sightseeing",
+      activities: [
+        "Morning arrival at Mussoorie, hotel check-in",
+        "Visit Kempty Falls – Mussoorie’s most famous waterfall",
+        "Explore Company Garden with flowers & mini amusement rides",
+        "Evening stroll at Mall Road & Camel’s Back Road",
+        "Overnight stay in Mussoorie"
+      ]
+    },
+    {
+      day: 2,
+      title: "Scenic Points of Mussoorie",
+      activities: [
+        "Visit Lal Tibba Scenic Point – panoramic Himalayan views",
+        "Explore George Everest’s House – heritage site with valley views",
+        "Enjoy boating at Mussoorie Lake",
+        "Visit Christ Church – oldest in the Himalayas",
+        "Evening free for shopping & cafés at Mall Road",
+        "Overnight stay in Mussoorie"
+      ]
+    },
+    {
+      day: 3,
+      title: "Mussoorie ➝ Rishikesh (Transfer & Evening Leisure)",
+      activities: [
+        "Morning checkout & drive towards Rishikesh (approx. 5 hrs)",
+        "Hotel check-in at Rishikesh",
+        "Evening visit to Triveni Ghat for Ganga Aarti",
+        "Overnight stay in Rishikesh"
+      ]
+    },
+    {
+      day: 4,
+      title: "Rishikesh Adventure & Spirituality",
+      activities: [
+        "River Rafting on Ganges (optional adventure activity)",
+        "Walk across Lakshman Jhula & Ram Jhula suspension bridges",
+        "Explore Beatles Ashram (Maharishi Mahesh Yogi Ashram)",
+        "Shopping & café hopping at Tapovan area",
+        "Evening leisure by the Ganges",
+        "Overnight stay in Rishikesh"
+      ]
+    },
+    {
+      day: 5,
+      title: "Rishikesh ➝ Delhi (Overnight Journey)",
+      activities: [
+        "Morning free for yoga/meditation or local shopping",
+        "Afternoon departure from Rishikesh by Volvo/AC Semi-Sleeper Bus",
+        "Overnight journey to Delhi (arrival next morning)"
+      ]
+    }
+  ],
+  badge: "Adventure & Spirituality",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "River rafting & adventure activities subject to weather & safety conditions",
+    "Dreamzz Travels is not responsible for delays due to traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+},
+{
+  id: 21,
+  packageName: "Pondicherry Tour",
+  destination: "Pondicherry",
+  tagline: "3 Days of French Charm, Beaches & Spirituality",
+  duration: "3 Days / 2 Nights",
+  tariff: "On Request",
+  perHead: false,
+  minimumMembers: 4,
+  stayName: "Customized (Budget / Standard / Deluxe as per availability)",
+  pickupLocation: "Bengaluru (Private Cab / Tempo Traveller – as per group size)",
+  rating: 4.5,
+  reviewCount: 22,
+  image: "https://images.unsplash.com/photo-1598677833732-7857ae95afce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UG9uZGljaGVycnl8ZW58MHx8MHx8fDA%3D",
+  highlights: [
+    "Bengaluru to Pondicherry Scenic Drive",
+    "Rock Beach & Promenade Beach",
+    "Sri Aurobindo Ashram & Auroville (Matrimandir outer view)",
+    "Paradise Beach & Serenity Beach",
+    "French Quarter – White Town Café Hopping",
+    "Local Markets & French War Memorial"
+  ],
+  inclusions: [
+    "Pickup & drop from Bengaluru by private cab/tempo traveller",
+    "2 Nights hotel stay in Pondicherry (as per chosen category)",
+    "All local sightseeing in Pondicherry as per itinerary",
+    "Driver charges, fuel & tolls"
+  ],
+  exclusions: [
+    "Meals not mentioned in inclusions",
+    "Entry fees at monuments & activities (boating, Auroville entry passes)",
+    "Personal expenses, shopping & tips",
+    "Early check-in / late check-out charges"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      title: "Bengaluru ➝ Pondicherry (Transfer & Evening Leisure)",
+      activities: [
+        "Morning pickup from Bengaluru & scenic drive to Pondicherry (approx. 6–7 hrs)",
+        "Hotel check-in at Pondicherry",
+        "Evening visit to Rock Beach / Promenade Beach",
+        "Leisure stroll at Goubert Avenue & local markets",
+        "Overnight stay in Pondicherry"
+      ]
+    },
+    {
+      day: 2,
+      title: "Pondicherry Sightseeing",
+      activities: [
+        "Visit Sri Aurobindo Ashram – spiritual center",
+        "Explore Auroville & Matrimandir (outer view)",
+        "Relax at Paradise Beach / Serenity Beach",
+        "Visit French War Memorial & Basilica of the Sacred Heart of Jesus",
+        "Evening café hopping in White Town (French Quarter)",
+        "Overnight stay in Pondicherry"
+      ]
+    },
+    {
+      day: 3,
+      title: "Local Exploration & Return to Bengaluru",
+      activities: [
+        "Visit Immaculate Conception Cathedral",
+        "Morning leisure at Promenade / local shopping",
+        "Afternoon checkout & drive back to Bengaluru",
+        "Evening arrival at Bengaluru – trip concludes"
+      ]
+    }
+  ],
+  badge: "Beach & Culture",
+  discount: "Flexible",
+  terms: [
+    "25% advance payment required to confirm the booking",
+    "Remaining balance due at the time of pickup",
+    "Prices valid for a minimum of 4 members",
+    "Auroville Matrimandir inside visit requires prior permission (not included)",
+    "Dreamzz Travels is not responsible for delays due to traffic, weather, or roadblocks"
+  ],
+  contact: {
+    phone: ["7899209021", "6362040932"],
+    instagram: "@dreamzz_travels"
+  }
+}
+
+
+
 ];
