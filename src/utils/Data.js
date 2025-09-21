@@ -1,5 +1,5 @@
 export const tourPackages = [
-  {
+{
     id: 1,
     packageName: "Chikmagalur Tour",
     destination: "Chikmagalur",
@@ -76,7 +76,7 @@ export const tourPackages = [
       phone: "6362040932",
       instagram: "@dreamzz_travels"
     }
-  },
+},
 {
   id: 2,
   packageName: "Coorg Tour",
@@ -582,7 +582,7 @@ export const tourPackages = [
   destination: "Munnar",
   tagline: "3 Days of Scenic Hills, Waterfalls & Tea Gardens",
   duration: "3 Days & 2 Nights",
-  tariff: "₹*,999 (Customizable)",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 2,
   stayName: "(as per availability or customization)",
@@ -762,7 +762,7 @@ export const tourPackages = [
   destination: "Varkala",
   tagline: "3 Days of Beaches, Cliffs & Backwaters",
   duration: "3 Days & 2 Nights",
-  tariff: "₹*,999 (Customizable)",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 2,
   stayName: "(as per availability or customization)",
@@ -840,7 +840,7 @@ export const tourPackages = [
   destination: "Wayanad",
   tagline: "3 Days of Nature, Waterfalls & Wildlife",
   duration: "3 Days & 2 Nights",
-  tariff: "₹*,499 (Customizable)",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 2,
   stayName: "(as per availability or customization)",
@@ -1105,7 +1105,7 @@ export const tourPackages = [
   destination: "Alleppey",
   tagline: "3 Days of Houseboat & Backwater Bliss",
   duration: "3 Days & 2 Nights",
-  tariff: "₹*,499 (Customizable)",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 2,
   stayName: "Hotel / Houseboat (as per availability or customization)",
@@ -1183,7 +1183,7 @@ export const tourPackages = [
   destination: "Thekkady",
   tagline: "3 Days of Wildlife & Nature Adventure",
   duration: "3 Days & 2 Nights",
-  tariff: "₹*,499 (Customizable)",
+  tariff: "On Request",
   perHead: true,
   minimumMembers: 2,
   stayName: "(as per availability or customization)",
@@ -1836,7 +1836,4 @@ export const tourPackages = [
     instagram: "@dreamzz_travels"
   }
 }
-
-
-
 ];
