@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
+import { Phone, Mail, Clock } from 'lucide-react';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -72,11 +73,49 @@ const Header = () => {
 
     return (
         <>
+            {/* Top Contact Bar - NEW */}
+            <div className={`
+                fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-neutral-800 to-neutral-700 text-white py-2 px-4 transition-all duration-500
+                ${isScrolled ? 'transform -translate-y-full opacity-0' : 'transform translate-y-0 opacity-100'}
+            `}>
+                <div className="max-w-7xl mx-auto">
+                    <div className="flex justify-between items-center">
+                        {/* Contact Info - Scrollable on Mobile */}
+                        <div className="flex-1 overflow-hidden">
+                            <div className="flex items-center space-x-4 sm:space-x-6 animate-scroll-mobile sm:animate-none">
+                                {/* <div className="flex items-center space-x-2 whitespace-nowrap">
+                                    <Phone className="w-3 h-3 sm:w-4 sm:h-4 text-secondary-400 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">
+                                        Toll Free: <strong>1800-532-3636</strong>
+                                    </span>
+                                </div> */}
+                                <div className="flex items-center space-x-2 whitespace-nowrap">
+                                    <Clock className="w-3 h-3 sm:w-4 sm:h-4 text-secondary-400 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">
+                                        24/7: <strong>+91 6362040932</strong>
+                                    </span>
+                                </div>
+                                <div className="flex items-center space-x-2 whitespace-nowrap">
+                                    <Mail className="w-3 h-3 sm:w-4 sm:h-4 text-secondary-400 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">dreamzztravelsckm@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* CTA Button */}
+                        <button className="ml-4 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 text-white font-semibold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm whitespace-nowrap">
+                            Get a free Quote
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Your existing header - only changed the top positioning */}
             <header className={`
-                fixed top-0 left-0 right-0 z-50 transition-all duration-500 w-full
+                fixed left-0 right-0 z-50 transition-all duration-500 w-full
                 ${isScrolled
-                    ? 'bg-white/95 backdrop-blur-lg shadow-xl shadow-teal-100/30 border-b border-accent-200/50'
-                    : 'bg-transparent'
+                    ? 'top-0 bg-white/95 backdrop-blur-lg shadow-xl shadow-teal-100/30 border-b border-accent-200/50'
+                    : 'top-12 bg-transparent'
                 }
             `}>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -285,7 +324,7 @@ const Header = () => {
                             <button className="w-full bg-gradient-to-r from-accent-500 to-primary-500 hover:from-accent-600 hover:to-primary-600 text-white font-semibold py-3 sm:py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl hover:shadow-accent-500/30 border border-accent-400/30">
                                 <div className="flex items-center justify-center space-x-2">
                                     <svg className="w-5 h-5 drop-shadow-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2z" />
                                     </svg>
                                     <span className="text-sm sm:text-base">Book Now</span>
                                 </div>
@@ -300,6 +339,29 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+
+            {/* CSS for scrolling animation */}
+            <style jsx>{`
+                @keyframes scroll-mobile {
+                    0% { transform: translateX(0); }
+                    25% { transform: translateX(-25%); }
+                    50% { transform: translateX(-50%); }
+                    75% { transform: translateX(-25%); }
+                    100% { transform: translateX(0); }
+                }
+                
+                @media (max-width: 640px) {
+                    .animate-scroll-mobile {
+                        animation: scroll-mobile 20s ease-in-out infinite;
+                    }
+                }
+                
+                @media (min-width: 641px) {
+                    .animate-scroll-mobile {
+                        animation: none;
+                    }
+                }
+            `}</style>
         </>
     );
 };
